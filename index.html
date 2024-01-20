@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+
+    <!-- Tailwind+DaisyUI Setup -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/f8e7655de4.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+    <!-- Tailwind Custom Property -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="font-manrope">
+    <header class="my-20">
+        <div class="hero">
+            <div class="hero-content flex-col justify-between lg:flex-row gap-10">
+                <div>
+                    <h1 class="text-7xl font-extrabold leading-[90px]">It's good
+                        tea time at The Tea House</h1>
+                    <p class="py-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white ">Explore More<i
+                            class="fa-solid fa-arrow-up rotate-45"></i></button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-sm rounded-lg" />
+                    <div class="flex items-center gap-5 bg-white drop-shadow-lg p-5 w-60 rounded-lg -mt-20">
+                        <div>
+                            <i class="fa-solid fa-star text-4xl text-[#FFF082]"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-3xl font-bold">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
